@@ -1,0 +1,93 @@
+/**
+* TorTags component for Joomla 1.6, Joomla 1.7, Joomla 2.5, Joomla 3.0
+* @package TorTags
+* @author Tormix Team
+* @Copyright Copyright (C) Tormix, www.tormix.com
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html
+*/
+
+.tt_button 
+{
+	background: -moz-linear-gradient(center top , #FFFFFF, #CCCCCC) repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    border-radius: 9px;
+    color: #111111;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 1px 2px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+	float:left;
+
+	width:auto;
+	/*min-width:150px;*/
+}
+.tt-2gtr
+{
+	font-size:10px;
+	
+    float: left;
+}
+.tt_end a
+{
+	width:100%;
+	float: left;
+	cursor:pointer;
+}
+
+.tt_button:hover
+{
+    background: -moz-linear-gradient(center top , #CCCCCC, #DDDDDD) repeat scroll 0 0 transparent;
+    position: relative;
+}
+
+
+.tt_button .tt_end 
+{
+	/*background: url('../images/tt_button_blank.png') no-repeat scroll 100% 0 transparent;*/
+}
+
+
+.tt_link { /*float:left;*/ }
+.tt_end { padding: 1px; text-decoration: none; 
+/*float:right;*/
+}
+
+.tt-tags{padding:2px;clear:both;overflow: hidden;}
+.tt_button{margin-top: 3px; margin-right: 5px; margin-left: 2px;}
+.tt_end a, .tt_end span	{ padding: 0 1px; text-decoration: none;}
+.tt_inpval{float:left;padding:1px;}
+.tt_button img{margin: 3px 1px 1px 2px; float:left;}
+
+.tt_img 
+{display:none;
+	width: 10px; 
+	/*background: url('../images/tags.png') no-repeat scroll 0px 3px transparent;*/ 
+	float: left;
+}
+
+.tt-del-link
+{
+	width:auto !important;
+}
+
+.tt_notice_new{padding-left: 20px; background: url('../images/about.png') no-repeat;}
+.tt_notice, .tt_error
+{ 	background: none repeat scroll 0 0 #D14008; 
+	color: #FDE910;
+	border-radius:2px;
+	padding:2px;
+}
+
+.tt_success
+{
+	background: none repeat scroll 0 0 green;  
+	color: white;
+	border-radius:2px;
+	padding:2px;
+}
+
+.tt_button img
+{
+	margin:0px;
+}

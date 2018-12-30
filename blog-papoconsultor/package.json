@@ -1,0 +1,13 @@
+{
+  "name": "papo de consultor",
+  "version": "1.0.0",
+  "title": "Blog Papo de Consultor",
+  "homepage": "http://localhost/blogpapoconsultor/site",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-imagemin": "~0.4.0",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
