@@ -1,0 +1,65 @@
+/**
+ * @package   	Egolt Voting
+ * @link 		http://www.egolt.com
+ * @copyright 	Copyright (C) Egolt - www.egolt.com
+ * @author    	Soheil Novinfard
+ * @license    	GNU/GPL 2
+ *
+ * Name:		Egolt Voting
+ * License:		GNU/GPL 2
+ * Product:		http://www.egolt.com/products/egoltvoting
+ */
+ 
+.eglikemod a, 
+.eglikemod a:hover,
+.eglikemod a:focus {
+	text-decoration: none !important;
+}
+.eglikemod a {
+	color: #000 !important;
+}
+.eglikemod a:hover,
+.eglikemod a:focus {
+	background-color: transparent !important;
+	color: blue !important;
+}
+.eglikemod ul{
+	margin: 0px !important;
+	border: solid 0px #eee;
+	list-style: none;
+}
+.eglikemod ul li{
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	height: 40px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	overflow: hidden;
+	border-bottom: 1px solid #1FD31F;
+}
+.eglikemod ul li a {
+	position: relative;
+}
+.eglikemod ul li a  span {
+	padding-left:3px;
+}
+.eglikemod ul li a div {
+	position: absolute;
+	top: 25px;
+	background:#BFF5C1;
+	font-size:11px;
+	height:15px;
+	line-height:15px;
+	overflow:hidden;
+	padding-left:4px;
+	z-index:500;
+}
+.eglikemod ul li a {
+	width: 100%;
+	display: block;
+}
+.eglikemod ul li:hover,
+.eglikemod ul li:focus {
+	background-color: #eee;
+}

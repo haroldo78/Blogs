@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content" method="upgrade">
+	<name>Content - TorTags</name>
+	<author>Tormix</author>
+	<creationDate>October 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@tormix.com</authorEmail>
+	<authorUrl>www.tormix.com</authorUrl>
+	<description>Content plugin: TorTags replace code templates on tags</description>
+	<version>1.3.6</version>
+	<files>
+		<filename plugin="tortags">tortags.php</filename>
+			<filename>index.html</filename>
+	</files>
+	<params>
+	</params>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="enbl_autoinsert" type="radio" default="1"
+				label="Enable autoinsert tags?" description="Enable autoinsert tags (only for com_content)?">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="showonlyinarticle" type="radio" default="0"
+				label="Show only in article?" description="Show only in article (only for com_content)?">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="showin" type="radio" default="0"
+				label="Where's show the assigned tags?" description="">
+					<option value="0">After article text</option>
+					<option value="1">Before article text</option>
+				</field>
+				
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

@@ -1,0 +1,35 @@
+/*
+* TorTags component for Joomla 1.6, Joomla 1.7, Joomla 2.5, Joomla 3.0
+* @package TorTags
+* @author Tormix Team
+* @Copyright Copyright (C) Tormix, www.tormix.com
+* @license GNU/GPL http://www.gnu.org/copyleft/gpl.html
+*/
+
+/*ICONS*/
+.icon-48-about { background-image: url("../images/about48.png");}
+.icon-48-components { background-image: url("../images/components48.png");}
+.icon-48-tags { background-image: url("../images/tags48.png");}
+.icon-48-import { background-image: url("../images/import48.png");}
+.icon-48-settings { background-image: url("../images/settings48.png");}
+
+.tt_tablcenter{text-align:center; display: inline-block;}
+
+fieldset {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #CCCCCC !important;
+}
+
+.tt_succ_import
+{
+	background: url("../images/complete.png") no-repeat scroll 0px 0px transparent;
+	color: #3CAA3C;
+    padding-left: 20px;
+}
+
+.tt_error_import
+{
+	background: url("../images/error.png") no-repeat scroll 0px 0px transparent;
+	color: #cc3c43;
+    padding-left: 20px;
+}
