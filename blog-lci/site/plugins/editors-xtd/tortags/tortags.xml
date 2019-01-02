@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="editors-xtd" method="upgrade">
+	<name>Button - TorTags</name>
+	<author>Tormix</author>
+	<creationDate>October 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@tormix.com</authorEmail>
+	<authorUrl>www.tormix.com</authorUrl>
+	<description>Button plugin: TorTags button</description>
+	<version>1.3.6</version>
+	<files>
+		<filename plugin="tortags">tortags.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_editors-xtd_tortags.ini</language>
+	</languages>
+</extension>
