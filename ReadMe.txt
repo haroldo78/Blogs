@@ -7,24 +7,51 @@ Using: HTML5, CSS3, Sass, Grunt, Joomla Content Management System with responsiv
 Can be used with a local served xampp, mamp or of your preference. given start in Apache and MySQL. to create a database of name blogoconsultor in admin, phpmyadmin.
 
 The configuration.php
-put the folder path and put the name of the bank
-public $ db = 'saofrancisco';
+put the folder path and put the name of the database
+public $ db = 'bloglci';
+
+public $ log_path = 'C:\\xampp\\htdocs\\blog-lci\\site/logs';
+public $ tmp_path = 'C:\\xampp\\htdocs\\blog-lci\\site/tmp';
+
+The configuration.php
+put the folder path and put the name of the database
+public $ db = 'blogpapoconsultor';
 
 public $ log_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/logs';
 public $ tmp_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/tmp';
 
-São projetos que forão criado para empresas para divugação e compartilhamentos de conteúdos para seus clientes fortalecendo seu networking, abrangedo uma infinidade de assuntos que são postadas diariamente ou semanalmente atualizando seus clientes de forma rapida e com conteúdo verdadeiro.
+The configuration.php
+put the folder path and put the name of the database
+public $ db = 'blog-purosabor';
 
-Utilizando: HTML5, CSS3, Sass, Grunt, Joomla Sistema de Gerenciameto de Conteúdo com desig responsivo. Com componentes :Jquery, analytics.js GoogleAnalyticsObject, Media querie responsive.
+public $ log_path = 'C:\\xampp\\htdocs\\blog-purosabor\\site/logs';
+public $ tmp_path = 'C:\\xampp\\htdocs\\blog-purosabor\\site/tmp';
+
+SÃ£o projetos que forÃ£o criado para empresas para divugaÃ§Ã£o e compartilhamentos de conteÃºdos para seus clientes fortalecendo seu networking, abrangedo uma infinidade de assuntos que sÃ£o postadas diariamente ou semanalmente atualizando seus clientes de forma rapida e com conteÃºdo verdadeiro.
+
+Utilizando: HTML5, CSS3, Sass, Grunt, Joomla Sistema de Gerenciameto de ConteÃºdo com desig responsivo. Com componentes :Jquery, analytics.js GoogleAnalyticsObject, Media querie responsive.
 
 Podendo ser ultilizado com um servido local xampp, mamp ou de sua preferencia. dado start no Apache e no MySQL . criar um banco de dados de nome blogpapoconsultor no admin, phpmyadmin .
 
 No configuration.php
-colocar o caminho da pasta e colocar o nome do banco
-public $db = 'saofrancisco';
+colocar o caminho da pasta e colocar o nome do banco de dados
+public $ db = 'bloglci';
 
-public $log_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/logs';
-public $tmp_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/tmp';
+public $ log_path = 'C:\\xampp\\htdocs\\blog-lci\\site/logs';
+public $ tmp_path = 'C:\\xampp\\htdocs\\blog-lci\\site/tmp';
 
+
+colocar o caminho da pasta e colocar o nome do banco de dados
+public $ db = 'blogpapoconsultor';
+
+public $ log_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/logs';
+public $ tmp_path = 'C:\\xampp\\htdocs\\blog-papoconsultor\\site/tmp';
+
+
+colocar o caminho da pasta e colocar o nome do banco de dados
+public $ db = 'blog-purosabor';
+
+public $ log_path = 'C:\\xampp\\htdocs\\blog-purosabor\\site/logs';
+public $ tmp_path = 'C:\\xampp\\htdocs\\blog-purosabor\\site/tmp';
 
 
